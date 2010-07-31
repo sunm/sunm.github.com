@@ -1,0 +1,13 @@
+auto: true
+destination: ./_site
+server: true
+lsi: true # better related posts
+server_port: 4000
+pygments: false
+markdown: maruku
+permalink: date
+maruku:
+  use_tex: false
+  use_divs: false
+  png_dir: images/latex
+  png_url: /images/latex
